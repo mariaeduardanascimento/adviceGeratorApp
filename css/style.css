@@ -2,89 +2,64 @@
 
 .container{
     background-color: hsl(218, 23%, 16%);
-    max-width: 1440px;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
+
+img{
+    max-width: 100%;
 }
 
 .box-advice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.advice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: hsl(217, 19%, 24%);
-    width: 480px;
-    height: 320px;
-    padding: 40px 20px 50px;
     border-radius: 10px;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
+    margin: 20px;
+    width: 330px;
 }
 
 
-/* .box-advice::after{
-    content: url(../images/pattern-divider-desktop.svg);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
-
-.divider{
-    display: flex;
-    justify-content: center;
-}
-
-.divider img{
-    position: absolute;
-    bottom: 50px;
-    width: 400px;
-}
-
-.tittle-advice{
+.id-advice{
     font-size: 12px;
     color: hsl(150, 100%, 66%);
     text-transform: uppercase;
     letter-spacing: 5px;
+    font-size: 15px;
+    margin-top: 30px;
 }
 
 .p-advice{
-    font-size: 28px;
-    margin: 20px 0px 20px;
+    font-size: 23px;
+    padding: 23px;
     color: hsl(193, 38%, 86%);
 }
 
-
-.tittle-advice, .p-advice{
+.id-advice, .p-advice{
     text-align: center;
     align-items: center;
 }
 
-
 .btn-icon{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    padding: 30px;
-    margin: auto;
-    top: 160px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
     background-color: hsl(150, 100%, 66%);
-    border-radius: 40px;
-    transition: 0.5s ease-in-out;
+    transform: translateY(50%);
+
 }
 
 .btn-icon:hover{
+    color: #53FFAB;
     cursor: pointer;
-    box-shadow: 2px 2px 35px  hsl(150, 100%, 66%);
+    box-shadow: 0px 5px 15px  hsl(150, 100%, 66%);
 }
 
-
-.btn-icon img{
-    position: absolute;
-    
-}
-
-.attribution a{
-    display: inline;
-   text-align: end;
-}
