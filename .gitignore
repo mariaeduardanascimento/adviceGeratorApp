@@ -1,10 +1,6 @@
 
 *.xd
 
-design
-style-guide.md
-
-*.md
 
 .DS_Store
 .prettierignore
